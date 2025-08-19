@@ -4,12 +4,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <title>Createx Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    
+<body class="font-sans text-gray-800">
+
+
+    <header class="w-full bg-white shadow-md fixed top-0 left-0 z-20">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+
+            <img src="./images/logo.svg" alt="">
+
+
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#aaa" class="hover:text-orange-500">About Us</a>
+                <a href="#" class="hover:text-orange-500">Services</a>
+                <a href="#" class="hover:text-orange-500">Work</a>
+                <a href="#" class="hover:text-orange-500">News</a>
+                <a href="#" class="hover:text-orange-500">Contacts</a>
+            </nav>
+
+
+            <div class="flex items-center space-x-4">
+                <div class="flex">
+                    <img src="./images/iPhone.svg" alt="">
+                    <a href="#" class="text-gray-700 hover:text-black">Call us <br>(405) 555-0128</a>
+                </div>
+                <div class="flex ">
+                    <img src="./images/Chat.svg" alt="">
+                    <a href="#" class="text-gray-700 hover:text-black">Talk to us<br>hello@createx.com</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="relative h-[120vh] w-full">
+        <img src="./images/bg-image.svg" alt=" " class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0   bg-opacity-50"></div>
+
+
+        <div class="absolute z-10 flex flex-col justify-center left-[3%] h-full px-6 md:px-20">
+            <h1 class="text-white text-3xl md:text-6xl font-bold mb-4">
+                CREATE<span class="text-orange-500">X</span> <br> CONSTRUCTION
+            </h1>
+            <p class="text-gray-200 text-lg md:text-xl max-w-lg mb-6">
+                Cras ultrices leo vitae non viverra. Fringilla nisi quisque consequat, dignissim vitae proin ipsum sed.
+                Pellentesque nec turpis purus eget pellentesque integer ipsum elementum felis.
+            </p>
+            <div class="flex gap-4">
+                <button class="bg-gray-600 text-white px-6 py-3 rounded hover:bg-gray-700 transition">
+                    <a href="#aaa">Learn More About Us</a>
+                </button>
+                <button class="bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 transition">
+                    Submit Request
+                </button>
+            </div>
+        </div>
+
+
+        <div class="absolute bottom-6 left-[19%] transform -translate-x-1/2 flex space-x-12 text-white text-lg z-10">
+            <span class="pb-1 border-b-2 border-orange-500">01</span>
+            <span class="pb-1 border-b border-white opacity-70 hover:opacity-100 cursor-pointer">02</span>
+            <span class="pb-1 border-b border-white opacity-70 hover:opacity-100 cursor-pointer">03</span>
+            <span class="pb-1 border-b border-white opacity-70 hover:opacity-100 cursor-pointer">04</span>
+        </div>
+
+    </section>
+
+
+    <section class="py-20  bg-white" id="aaa">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">We are Createx Construction Bureau</h2>
+            <p class="text-gray-600 mb-10">We are rightfully considered to be the best construction company in the USA.
+            </p>
+            <div class="relative max-w-6xl mx-auto">
+                <img src="./images/video.svg" alt="Video Preview" class="rounded-lg shadow-lg">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Our core values</h2>
+            <p class="text-gray-600 mb-12">Our mission is to set the highest standards for construction sphere.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-like.svg" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Quality</h3>
+                    <p class="text-gray-600">Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit
+                        nostrud aliquip sunt.</p>
+                </div>
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-hand.svg" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Safety</h3>
+                    <p class="text-gray-600">Anim reprehenderit sint voluptate exercitation adipisicing laborum
+                        adipisicing. Minim empor est ea.</p>
+                </div>
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-slippers.svg" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Comfort</h3>
+                    <p class="text-gray-600">Sit veniam aute dolore adipisicing nulla sit culpa. Minim mollit voluptate
+                        ullamco proident ea ad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Our services</h2>
+            <p class="text-gray-600 mb-12">Createx Construction Bureau is a construction giant with a full range of
+                construction services.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-construction.png" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Construction</h3>
+
+                </div>
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-plan.svg" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Project Development</h3>
+
+                </div>
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/hover.png" alt="">
+
+                </div>
+                <div class="p-6 flex flex-col items-center">
+                    <img src="./images/ic-painting.svg" alt="" class="mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Repairs</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 py-10 text-center flex justify-center gap-10">
+            <h1 class="text-3xl font-bold mb-4">Learn more about our services</h1>
+            <button class="text-3xl font-bold mb-4 bg-[#FF5A30] p-2 rounded-[4px]">View services</button>
+        </div>
+    </section>
+
+
+    <section class="py-20  px-12 mx-16  ">
+        <h2 class="text-3xl font-bold mb-6">Browse our selected projects <br>
+            and learn more about our work</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/image1.svg" alt="" class="mb-4 mx-auto">
+                <h3 class="text-xl font-semibold mb-2">Red Finger Building</h3>
+                <p>Business Centers</p>
+
+
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/image2.svg" alt="" class="mb-4 mx-auto">
+                <h3 class="text-xl font-semibold mb-2">Cubes Building</h3>
+                <p>Business Centers</p>
+                <button
+                    class="font-bold mb-4 bg-gray-50 text-[#FF5A30] p-2 rounded-[4px] border-[0.2px] border-[#FF5A30]">
+                    View services
+                </button>
+
+
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/image3.svg" alt="">
+                <h3 class="text-xl font-semibold mb-2">The Pencil Building</h3>
+                <p>Stores & Malls</p>
+            </div>
+
+        </div>
+        <div class="container mx-auto px-6 py-10 text-center flex justify-center gap-10">
+            <h1 class="text-3xl font-bold mb-4">Explore all our works</h1>
+            <button class="text-3xl font-bold mb-4 bg-[#FF5A30] p-2 rounded-[4px]">View portfolio</button>
+        </div>
+
+    </section>
+
+
+    <section class="py-12 px-12 mx-16 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Supported by 12+ partners</h2>
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-10">
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (7).svg" alt="" class="mb-4 mx-auto">
+
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (1).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (2).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (3).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (4).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (5).svg" alt="" class="mb-4 mx-auto">
+            </div>
+
+    </section>
+
+
+    <section class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-6 text-center">Recent news</h1>
+        <div class="flex gap-6">
+            <div class="w-[60%] h-[100vh] bg-white ">
+                <img src="./images/image11.svg" alt="Construction Worker" class="w-full h-[80vh] object-cover">
+                <div class="mt-2">
+                    <h3 class="text-lg font-semibold">How to Build Climate-Change-Resilient Infrastructure</h3>
+                    <p class="text-gray-500 text-sm">Industry News | June 24, 2020 | 4 comments</p>
+                    <p class="text-gray-700 mt-2">Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas faucibus.
+                        Tincidunt aliquet sit vel, venenatis nulla. Integer bibendum turpis convallis enim, nibh
+                        convallis...</p>
+                </div>
+            </div>
+            <div class="w-[40%] h-[100vh] bg-white mb-5 ">
+                <div class=" h-[48vh] bg-white ">
+                    <img src="./images/image12.svg" alt="Construction Materials" class="w-full h-48 object-cover">
+                    <div class="mt-2">
+                        <h3 class="text-2xl font-semibold text-red-600">How Construction Can Help Itself</h3>
+                        <p class="text-gray-500 text-sm">Innovation | June 12, 2020 | 0 comments</p>
+
+                    </div>
+                </div>
+                <div class=" h-[48vh] bg-white ">
+                    <img src="./images/image13.svg" alt="Flooring Materials" class="w-full h-48 object-cover">
+                    <div class="mt-2">
+                        <h3 class="text-lg font-semibold">Types of Flooring Materials</h3>
+                        <p class="text-gray-500 text-sm">Company News | December 1, 2019 | 0 comments</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 py-10 text-center flex justify-center gap-10">
+            <h1 class="text-3xl font-bold mb-4">Explore all our works</h1>
+            <button class="text-3xl font-bold mb-4 bg-[#FF5A30] p-2 rounded-[4px]">View portfolio</button>
+        </div>
+
+    </section>
+
+
+    <section class="py-12 bg-gray-800 text-white text-center relative overflow-hidden">
+        <img src="./images/image20.svg" alt="Building" class="w-full h-[130vh] object-cover absolute top-0 left-0 z-0">
+        <div class="relative z-10 right-[-320px]">
+            <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg text-black">
+                <h2 class="text-2xl font-bold mb-6">A quick way to discuss details</h2>
+                <div class="mb-4">
+                    <label for="name" class="block text-left text-sm font-medium text-gray-700">Name*</label>
+                    <input type="text" id="name" placeholder="Your name"
+                        class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+                <div class="mb-4">
+                    <label for="phone" class="block text-left text-sm font-medium text-gray-700">Phone*</label>
+                    <input type="tel" id="phone" placeholder="Your phone number"
+                        class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" placeholder="Your working email"
+                        class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-left text-sm font-medium text-gray-700">Message*</label>
+                    <textarea id="message" placeholder="Your message"
+                        class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                        rows="4"></textarea>
+                </div>
+                <div class="mb-4">
+                    <label class="flex items-center text-sm text-gray-700">
+                        <input type="checkbox" class="mr-2 text-orange-500 focus:ring-orange-500">
+                        I agree to receive communications from Createx Construction Bureau.
+                    </label>
+                </div>
+                <button type="submit"
+                    class="w-full bg-orange-500 text-white px-6 py-3 rounded text-lg font-semibold hover:bg-orange-600">SEND
+                    REQUEST</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="max-w-7xl mx-auto bg-black text-white  justify-between">
+
+        <div class="flex px-12 mx-16">
+            <div class="flex-1 p-4">
+                <div class="flex gap-14">
+                    <h3 class="text-3xl font-bold ">CREATE <span class="text-orange-500">X</span></h3>
+                    <img src="./images/socials.svg" alt="">
+                </div>
+                <p class="mt-2">
+                    Createx Construction Bureau has been successfully operating in the USA construction market since
+                    2000. We are proud to offer you quality construction and exemplary service. Our mission is to set
+                    the highest standards for construction sphere.
+                </p>
+                <div class="mt-4 flex space-x-2">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-skype"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+
+            <div class="flex-1 p-4">
+                <h3 class="text-xl font-bold text-orange-500">LET'S STAY IN TOUCH</h3>
+                <div class="mt-2">
+                    <input type="email" placeholder="Your email address"
+                        class="p-2 bg-gray-800 text-white rounded-l w-3/4">
+                    <button class="custom-orange p-2 rounded-r">SUBSCRIBE</button>
+                </div>
+                <p class="mt-2 text-sm text-gray-400">*Subscribe to our newsletter to receive communications and early
+                    updates from Createx Construction Bureau.</p>
+            </div>
+        </div>
+
+
+        <div class="flex px-12 mx-16">
+            <div class="flex-1 p-4">
+                <h3 class="text-xl font-bold text-orange-500">HEAD OFFICE</h3>
+                <p class="mt-2">Address: 8502 Preston Rd, Inglewood, New York</p>
+                <p>Call: (405) 555-0128</p>
+                <p>Email: <a href="mailto:hello@createx.com" class="text-orange-500">hello@createx.com</a></p>
+            </div>
+
+
+
+            <div class="flex-1 p-4">
+                <h3 class="text-xl font-bold text-orange-500">WHO WE ARE</h3>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Available Positions</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Contacts</a></li>
+                </ul>
+            </div>
+
+            <div class="flex-1 p-4">
+                <h3 class="text-xl font-bold text-orange-500">OUR EXPERIENCE</h3>
+                <ul class="mt-2 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Work</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">News</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="max-w-7xl bg-black  mx-auto  flex justify-between items-center text-sm text-gray-200">
+        <p class="px-12 mx-16">© All rights reserved. Made with ♥ by Createx Studio</p>
+        <button class="custom-orange p-2 rounded px-12 mx-16">GO TO TOP</button>
+    </div>
+
 </body>
 
 </html>
