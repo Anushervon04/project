@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Createx Construction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF5A30',
+                        darkBg: '#1E212C',
+                        lightGray: '#F4F5F6',
+                        textDark: '#1E212C',
+                        textLight: '#787A80',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .header-bg {
+            background-color: #F4F5F6;
+        }
+
+        .footer-bg {
+            background-color: #1E212C;
+        }
+
+        .contact-form-bg {
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0Y0RjVGNiIvPjwvc3ZnPg==');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <div class="max-w-[1400px] mx-auto">
+        <!-- Header -->
+
+        <header class="w-full bg-white shadow-md fixed top-0 left-0 z-20">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+
+                <img src="./images/logo.svg" alt="">
+
+
+                <nav class="hidden md:flex space-x-8 font-medium">
+                    <a href="./index.html" class="hover:text-orange-500">About Us</a>
+                    <a href="./page1.html" class="hover:text-orange-500">Services</a>
+                    <a href="./page2.html" class="hover:text-orange-500">Work</a>
+                    <a href="./page3.html" class="hover:text-orange-500">News</a>
+                    <a href="#" class="hover:text-orange-500">Contacts</a>
+                </nav>
+
+
+                <div class="flex items-center space-x-4">
+                    <div class="flex">
+                        <img src="./images/iPhone.svg" alt="">
+                        <a href="#" class="text-gray-700 hover:text-black">Call us <br>(405) 555-0128</a>
+                    </div>
+                    <div class="flex ">
+                        <img src="./images/Chat.svg" alt="">
+                        <a href="#" class="text-gray-700 hover:text-black">Talk to us<br>hello@createx.com</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="py-16 md:py-24">
+            <!-- Construction Section -->
+            <section class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <img src="./images/image31.svg" alt="Construction work"
+                    class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">Construction</h2>
+                    <p class="text-gray-600 mb-6">
+                        Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu,
+                        scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue.
+                    </p>
+                    <button
+                        class="border border-primary text-primary px-6 py-3 rounded hover:bg-primary hover:text-white transition-colors">
+                        Learn more
+                    </button>
+                </div>
+            </section>
+
+            <!-- Project Development Section -->
+            <section
+                class="flex flex-col lg:flex-row-reverse justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <img src="./images/image32.svg" alt="Project development"
+                    class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">Project Development</h2>
+                    <p class="text-gray-600 mb-6">
+                        Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu,
+                        scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue.
+                    </p>
+                    <button
+                        class="border border-primary text-primary px-6 py-3 rounded hover:bg-primary hover:text-white transition-colors">
+                        Learn more
+                    </button>
+                </div>
+            </section>
+
+            <!-- Interior Design Section -->
+            <section class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <img src="./images/image33.svg" alt="Interior design"
+                    class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">Interior Design</h2>
+                    <p class="text-gray-600 mb-6">
+                        Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu,
+                        scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue.
+                    </p>
+                    <button
+                        class="border border-primary text-primary px-6 py-3 rounded hover:bg-primary hover:text-white transition-colors">
+                        Learn more
+                    </button>
+                </div>
+            </section>
+
+            <!-- Repair Section -->
+            <section
+                class="flex flex-col lg:flex-row-reverse justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <img src="./images/image.jpg" alt="Repair services"
+                    class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">Repair Services</h2>
+                    <p class="text-gray-600 mb-6">
+                        Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu,
+                        scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue.
+                    </p>
+                    <button
+                        class="border border-primary text-primary px-6 py-3 rounded hover:bg-primary hover:text-white transition-colors">
+                        Learn more
+                    </button>
+                </div>
+            </section>
+
+            <!-- Constructive Decisions Section -->
+            <section class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <img src="./images/image (1).jpg" alt="Constructive decisions"
+                    class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">Constructive decisions</h2>
+                    <div class="space-y-4">
+
+                        <div class="flex items-start space-x-4">
+                            <!-- Галочка -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-500 mt-1 flex-shrink-0"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Vitae ultrices ornare eu sed in est quisque duis id.</p>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-500 mt-1 flex-shrink-0"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Amet nec in pellentesque lectus odio mattis in.</p>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-500 mt-1 flex-shrink-0"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Interdum magna facilisi nam ultricies dolor et.</p>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-orange-500 mt-1 flex-shrink-0"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7" />
+                            </svg>
+                            <p class="text-gray-600">Magna eget sed lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Testimonial Section -->
+            <section class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-4 md:px-8 mb-24">
+                <div class="w-full lg:w-1/2 max-w-md">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-5">What our clients say</h2>
+                    <p class="text-gray-600 mb-5">
+                        Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim.
+                        Consectetur magna cillum consequat minim laboris cillum laboris voluptate minim proident
+                        exercitation ullamco.
+                    </p>
+                    <p class="font-bold">Shawn Edwards</p>
+                    <p class="text-gray-600">Position, Company name</p>
+                </div>
+                <img src="./images/image (12).png" alt="Shawn Edwards" class="w-full lg:w-1/2 max-w-md rounded-lg shadow-md">
+            </section>
+
+            <!-- Clients Section -->
+            <section class="py-12 px-12 mx-16 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6">Supported by 12+ partners</h2>
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-10">
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (7).svg" alt="" class="mb-4 mx-auto">
+
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (1).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (2).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (3).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (4).svg" alt="" class="mb-4 mx-auto">
+            </div>
+            <div class="p-6 flex flex-col items-center">
+                <img src="./images/client-logo (5).svg" alt="" class="mb-4 mx-auto">
+            </div>
+
+    </section>
+
+
+            <section class="py-12 bg-gray-800 text-white text-center relative overflow-hidden">
+                <img src="./images/image20.svg" alt="Building"
+                    class="w-full h-[130vh] object-cover absolute top-0 left-0 z-0">
+                <div class="relative z-10 right-[-320px]">
+                    <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg text-black">
+                        <h2 class="text-2xl font-bold mb-6">A quick way to discuss details</h2>
+                        <div class="mb-4">
+                            <label for="name" class="block text-left text-sm font-medium text-gray-700">Name*</label>
+                            <input type="text" id="name" placeholder="Your name"
+                                class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-left text-sm font-medium text-gray-700">Phone*</label>
+                            <input type="tel" id="phone" placeholder="Your phone number"
+                                class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-left text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" placeholder="Your working email"
+                                class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message"
+                                class="block text-left text-sm font-medium text-gray-700">Message*</label>
+                            <textarea id="message" placeholder="Your message"
+                                class="w-full p-3 mt-1 border border-gray-300 rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                                rows="4"></textarea>
+                        </div>
+                        <div class="mb-4">
+                            <label class="flex items-center text-sm text-gray-700">
+                                <input type="checkbox" class="mr-2 text-orange-500 focus:ring-orange-500">
+                                I agree to receive communications from Createx Construction Bureau.
+                            </label>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-orange-500 text-white px-6 py-3 rounded text-lg font-semibold hover:bg-orange-600">SEND
+                            REQUEST</button>
+                    </form>
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="max-w-7xl mx-auto bg-black text-white  justify-between">
+
+            <div class="flex px-12 mx-16">
+                <div class="flex-1 p-4">
+                    <div class="flex gap-14">
+                        <h3 class="text-3xl font-bold ">CREATE <span class="text-orange-500">X</span></h3>
+                        <img src="./images/socials.svg" alt="">
+                    </div>
+                    <p class="mt-2">
+                        Createx Construction Bureau has been successfully operating in the USA construction market since
+                        2000. We are proud to offer you quality construction and exemplary service. Our mission is to
+                        set
+                        the highest standards for construction sphere.
+                    </p>
+                    <div class="mt-4 flex space-x-2">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-skype"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="flex-1 p-4">
+                    <h3 class="text-xl font-bold text-orange-500">LET'S STAY IN TOUCH</h3>
+                    <div class="mt-2">
+                        <input type="email" placeholder="Your email address"
+                            class="p-2 bg-gray-800 text-white rounded-l w-3/4">
+                        <button class="custom-orange p-2 rounded-r">SUBSCRIBE</button>
+                    </div>
+                    <p class="mt-2 text-sm text-gray-400">*Subscribe to our newsletter to receive communications and
+                        early
+                        updates from Createx Construction Bureau.</p>
+                </div>
+            </div>
+
+
+            <div class="flex px-12 mx-16">
+                <div class="flex-1 p-4">
+                    <h3 class="text-xl font-bold text-orange-500">HEAD OFFICE</h3>
+                    <p class="mt-2">Address: 8502 Preston Rd, Inglewood, New York</p>
+                    <p>Call: (405) 555-0128</p>
+                    <p>Email: <a href="mailto:hello@createx.com" class="text-orange-500">hello@createx.com</a></p>
+                </div>
+
+
+
+                <div class="flex-1 p-4">
+                    <h3 class="text-xl font-bold text-orange-500">WHO WE ARE</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Available Positions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex-1 p-4">
+                    <h3 class="text-xl font-bold text-orange-500">OUR EXPERIENCE</h3>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Work</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="max-w-7xl bg-black  mx-auto  flex justify-between items-center text-sm text-gray-200">
+            <p class="px-12 mx-16">© All rights reserved. Made with ♥ by Createx Studio</p>
+            <button class="custom-orange p-2 rounded px-12 mx-16">GO TO TOP</button>
+        </div>
+
+</body>
+
+</html>
